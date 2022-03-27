@@ -1,5 +1,5 @@
 const express = require('express');
-const port = 80;
+const port = process.env.PORT || 80;
 const path = require('path');
 const createError = require('http-errors');
 
